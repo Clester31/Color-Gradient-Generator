@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Simple Gradient Generator</h1>
+    </header>
+    <div class="info">
+        <p>Pick a starting color and and end color. The generator will provide colors within that range that are of similar consistency</p>
+        <p>Click on a color card to copy it's hex value</p>
+    </div>
+    <div class="config">
+        <label for="start-color">Starting Color: </label>
+        <input type="color" id="start-color" name="start-color">
+    
+        <label for="end-color">Ending Color: </label>
+        <input type="color" id="end-color" name="end-color">
+    
+        <label for="num-colors">Number of colors to generate</label>
+        <input type="number" id="num-colors" name="num-colors">
+    
+        <button id="gen-btn">Generate!</button>
+
+        <footer>Christian Lester - 2024</footer>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
